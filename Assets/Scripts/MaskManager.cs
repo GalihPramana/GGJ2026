@@ -1,59 +1,24 @@
 using UnityEngine;
 
-public class PlayerManager : MonoBehaviour
+public class MaskManager : MonoBehaviour
 {
-    public GameObject redPlayerPrefab;
-    public GameObject bluePlayerPrefab;
-    public GameObject greenPlayerPrefab;
-
-    GameObject currentPlayer;
-    MaskType currentMask = MaskType.Red;
-
-    void Start()
-    {
-        SpawnPlayer(currentMask);
-    }
+    public MaskType currentMask = MaskType.Red;
 
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Alpha1))
-            ChangeMask(MaskType.Red);
+            SetMask(MaskType.Red);
 
         if (Input.GetKeyDown(KeyCode.Alpha2))
-            ChangeMask(MaskType.Blue);
+            SetMask(MaskType.Blue);
 
         if (Input.GetKeyDown(KeyCode.Alpha3))
-            ChangeMask(MaskType.Green);
+            SetMask(MaskType.Green);
     }
 
-    void ChangeMask(MaskType newMask)
+    void SetMask(MaskType newMask)
     {
-        if (newMask == currentMask)
-            return;
-
-        Vector3 pos = currentPlayer.transform.position;
-
-        Destroy(currentPlayer);
         currentMask = newMask;
-        SpawnPlayer(newMask, pos);
-    }
-
-    void SpawnPlayer(MaskType mask, Vector3? spawnPos = null)
-    {
-        GameObject prefab = GetPrefab(mask);
-        Vector3 pos = spawnPos ?? Vector3.zero;
-
-        currentPlayer = Instantiate(prefab, pos, Quaternion.identity);
-    }
-
-    GameObject GetPrefab(MaskType mask)
-    {
-        switch (mask)
-        {
-            case MaskType.Red: return redPlayerPrefab;
-            case MaskType.Blue: return bluePlayerPrefab;
-            case MaskType.Green: return greenPlayerPrefab;
-        }
-        return redPlayerPrefab;
+        Debug.Log("Mask changed to: " + currentMask);
     }
 }
