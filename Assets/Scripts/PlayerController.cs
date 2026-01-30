@@ -3,7 +3,9 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float moveSpeed = 5f;
-    public MaskManager maskManager;
+
+    [Header("Mask Info")]
+    public MaskType maskType; // SET DI PREFAB
 
     void Update()
     {
@@ -24,8 +26,8 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            Debug.Log("Attack with " + maskManager.currentMask);
-            // nanti spawn projectile di sini
+            Debug.Log("Attack with " + maskType);
+            // nanti spawn projectile sesuai maskType
         }
     }
 }
