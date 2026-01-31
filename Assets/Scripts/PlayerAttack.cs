@@ -10,6 +10,7 @@ public class PlayerAttack : MonoBehaviour
 
     MaskManager maskManager;
     Camera cam;
+    public Animator animator;
 
     void Awake()
     {
@@ -46,7 +47,7 @@ public class PlayerAttack : MonoBehaviour
     void Shoot()
     {
         GameObject projectile = null;
-
+        animator.SetTrigger("Attack");
         switch (maskManager.currentMask)
         {
             case MaskType.Red:

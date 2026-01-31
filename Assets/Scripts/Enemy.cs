@@ -9,9 +9,14 @@ public class Enemy : MonoBehaviour
     private TowerHealth towerHealth;
     private bool isAttacking = false;
 
+    private EnemyCounter waveCounter;
     void Start()
     {
+        waveCounter = GameObject.Find("EnemyCounter").GetComponent<EnemyCounter>();
+
         GameObject tower = GameObject.FindGameObjectWithTag("Tower");
+
+        speed = 3f + (waveCounter.GetCounter() * 0.5f);
 
         if (tower != null)
         {

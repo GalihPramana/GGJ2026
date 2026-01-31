@@ -1,4 +1,6 @@
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EnemySpawner : MonoBehaviour
 {
@@ -9,18 +11,43 @@ public class EnemySpawner : MonoBehaviour
     public Transform[] spawnPoints; // point 1,2,3
 
     [Header("Spawn Settings")]
-    public float spawnInterval = 2f;
+    public float spawnInterval = 10f;
 
     private float spawnTimer;
+    public int enemiesOnScreen = 0;
+    private int enemiesLeftToSpawn = 5;
 
+    private EnemyCounter waveCounter;
+
+    public void AddCounter(int addition)
+    {
+        enemiesOnScreen += addition;
+    }
+    private void Start()
+    {
+        waveCounter = GameObject.Find("EnemyCounter").GetComponent<EnemyCounter>();
+    }
     void Update()
     {
-        spawnTimer += Time.deltaTime;
-
-        if (spawnTimer >= spawnInterval)
+        if (spawnTimer > 0)
         {
-            SpawnEnemy();
-            spawnTimer = 0f;
+            spawnTimer -= Time.deltaTime;
+        }
+        else
+        {
+            Debug.Log(enemiesLeftToSpawn + " " + enemiesOnScreen);
+            if (enemiesOnScreen < 5 && enemiesLeftToSpawn > 0)
+            {
+                enemiesLeftToSpawn--;
+                enemiesOnScreen++;
+                spawnTimer = spawnInterval;
+                SpawnEnemy();
+            }
+            if (enemiesOnScreen <= 0 && enemiesLeftToSpawn <= 0)
+            {
+                enemiesLeftToSpawn = 5;
+                waveCounter.AddCounter(1);
+            }
         }
     }
 
