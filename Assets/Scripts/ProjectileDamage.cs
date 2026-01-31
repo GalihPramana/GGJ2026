@@ -36,15 +36,15 @@ public class ProjectileDamage : MonoBehaviour
     bool IsEffective(string enemyTag)
     {
         // Hijau -> Merah
-        if (CompareTag("ProjectileGreen") && enemyTag == "EnemyRed")
+        if (CompareTag("ProjectileGreen") && enemyTag == "EnemyBlue")
             return true;
 
         // Merah -> Biru
-        if (CompareTag("ProjectileRed") && enemyTag == "EnemyBlue")
+        if (CompareTag("ProjectileRed") && enemyTag == "EnemyGreen")
             return true;
 
         // Biru -> Hijau
-        if (CompareTag("ProjectileBlue") && enemyTag == "EnemyGreen")
+        if (CompareTag("ProjectileBlue") && enemyTag == "EnemyRed")
             return true;
 
         return false;
