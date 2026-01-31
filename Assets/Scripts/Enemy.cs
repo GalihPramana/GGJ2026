@@ -2,38 +2,58 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public MaskType maskType;
-    public float hp = 10f;
-    public float speed = 2f;
-    Transform tower;
+    public float speed = 3f;
+    public float attackDamagePerSecond = 10f;
+
+    private Transform towerTarget;
+    private TowerHealth towerHealth;
+    private bool isAttacking = false;
 
     void Start()
     {
-        tower = GameObject.FindWithTag("Tower").transform;
+        GameObject tower = GameObject.FindGameObjectWithTag("Tower");
+
+        if (tower != null)
+        {
+            towerTarget = tower.transform;
+            towerHealth = tower.GetComponent<TowerHealth>();
+        }
     }
 
     void Update()
     {
-        MoveToTower();
+        if (towerTarget == null) return;
+
+        if (!isAttacking)
+        {
+            transform.position = Vector2.MoveTowards(
+                transform.position,
+                towerTarget.position,
+                speed * Time.deltaTime
+            );
+        }
+
+        if (isAttacking && towerHealth != null)
+        {
+            towerHealth.TakeDamagePerSecond(attackDamagePerSecond);
+        }
     }
 
-    void MoveToTower()
+    void OnTriggerEnter2D(Collider2D other)
     {
-        transform.position = Vector3.MoveTowards(
-            transform.position,
-            tower.position,
-            speed * Time.deltaTime
-        );
+        if (other.CompareTag("Tower"))
+        {
+            isAttacking = true;
+            Debug.Log("Enemy mulai menyerang Tower");
+        }
     }
 
-    public void TakeDamage(float dmg, MaskType playerMask)
+    void OnTriggerExit2D(Collider2D other)
     {
-        if (!CounterSystem.IsCounter(playerMask, maskType))
-            return; // kebal
-
-        hp -= dmg;
-
-        if (hp <= 0)
-            Destroy(gameObject);
+        if (other.CompareTag("Tower"))
+        {
+            isAttacking = false;
+            Debug.Log("Enemy berhenti menyerang Tower");
+        }
     }
 }

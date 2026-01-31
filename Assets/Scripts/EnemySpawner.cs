@@ -2,26 +2,43 @@ using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
-    public GameObject enemyPrefab;
+    [Header("Enemy Prefabs")]
+    public GameObject[] enemyPrefabs; // merah, biru, kuning
+
+    [Header("Spawn Points")]
+    public Transform[] spawnPoints; // point 1,2,3
+
+    [Header("Spawn Settings")]
     public float spawnInterval = 2f;
-    float timer;
+
+    private float spawnTimer;
 
     void Update()
     {
-        timer += Time.deltaTime;
+        spawnTimer += Time.deltaTime;
 
-        if (timer >= spawnInterval)
+        if (spawnTimer >= spawnInterval)
         {
             SpawnEnemy();
-            timer = 0f;
+            spawnTimer = 0f;
         }
     }
 
     void SpawnEnemy()
     {
-        GameObject e = Instantiate(enemyPrefab, transform.position, Quaternion.identity);
-        Enemy enemy = e.GetComponent<Enemy>();
+        if (enemyPrefabs.Length == 0 || spawnPoints.Length == 0)
+            return;
 
-        enemy.maskType = (MaskType)Random.Range(0, 3);
+        // random enemy
+        int enemyIndex = Random.Range(0, enemyPrefabs.Length);
+
+        // random spawn point
+        int spawnIndex = Random.Range(0, spawnPoints.Length);
+
+        Instantiate(
+            enemyPrefabs[enemyIndex],
+            spawnPoints[spawnIndex].position,
+            Quaternion.identity
+        );
     }
 }
