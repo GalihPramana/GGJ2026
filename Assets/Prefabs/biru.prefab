@@ -10,12 +10,13 @@ GameObject:
   m_Component:
   - component: {fileID: 8085805501438725529}
   - component: {fileID: 1242702510263947204}
+  - component: {fileID: 8729556482176303845}
   - component: {fileID: 1250888724837240925}
   - component: {fileID: 1699463540032467660}
   - component: {fileID: 1518992570358207670}
   m_Layer: 0
   m_Name: biru
-  m_TagString: Untagged
+  m_TagString: EnemyBlue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -90,6 +91,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &8729556482176303845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1205748507652875438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a46bdff90e20e2d4ba62575800f3d820, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  currentHealth: 0
 --- !u!114 &1250888724837240925
 MonoBehaviour:
   m_ObjectHideFlags: 0
