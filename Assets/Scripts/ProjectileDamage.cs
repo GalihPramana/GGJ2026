@@ -27,7 +27,7 @@ public class ProjectileDamage : MonoBehaviour
         }
         else
         {
-            Debug.Log("? Salah elemen, tidak ada damage");
+            //Debug.Log("? Salah elemen, tidak ada damage");
         }
 
         Destroy(gameObject);
