@@ -15,7 +15,7 @@ public class EnemySpawner : MonoBehaviour
 
     private float spawnTimer;
     public int enemiesOnScreen = 0;
-    private int enemiesLeftToSpawn = 5;
+    private int enemiesLeftToSpawn = 10;
 
     private EnemyCounter waveCounter;
 
@@ -45,7 +45,7 @@ public class EnemySpawner : MonoBehaviour
             }
             if (enemiesOnScreen <= 0 && enemiesLeftToSpawn <= 0)
             {
-                enemiesLeftToSpawn = 5;
+                enemiesLeftToSpawn = 10;
                 waveCounter.AddCounter(1);
             }
         }

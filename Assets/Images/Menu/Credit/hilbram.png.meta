@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 4f7185a1e61751d489b9475fbaa8c842
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4370203901848887248
+    second: hilbram_0
+  - first:
+      213: -2856072712526529833
+    second: hilbram_1
+  - first:
+      213: -4379236014436879682
+    second: hilbram_2
+  - first:
+      213: 1192185886568639886
+    second: hilbram_3
+  - first:
+      213: 1044953967991452317
+    second: hilbram_4
+  - first:
+      213: 87895717005206101
+    second: hilbram_5
+  - first:
+      213: 8644352846593513543
+    second: hilbram_6
+  - first:
+      213: 8020250514984767143
+    second: hilbram_7
+  - first:
+      213: -457952497395143186
+    second: hilbram_8
+  - first:
+      213: -5694956122383524842
+    second: hilbram_9
+  - first:
+      213: 7363426254067476595
+    second: hilbram_10
+  - first:
+      213: 2672340034656557370
+    second: hilbram_11
+  - first:
+      213: 7243966480569123060
+    second: hilbram_12
+  - first:
+      213: -3750916067200591499
+    second: hilbram_13
+  - first:
+      213: -763389344953524567
+    second: hilbram_14
+  - first:
+      213: 2125060708203172981
+    second: hilbram_15
+  - first:
+      213: 4559465607673677497
+    second: hilbram_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hilbram_0
+      rect:
+        serializedVersion: 2
+        x: 2773
+        y: 1732
+        width: 304
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0306542a4bae953c0800000000000000
+      internalID: -4370203901848887248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hilbram_1
+      rect:
+        serializedVersion: 2
+        x: 2879
+        y: 1798
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7da7b2500013d58d0800000000000000
+      internalID: -2856072712526529833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hilbram_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 926
+        width: 52
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb274eb0c04d933c0800000000000000
+      internalID: -4379236014436879682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hilbram_3
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 960
+        width: 44
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8d68235fbe7b8010800000000000000
+      internalID: 1192185886568639886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hilbram_4
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 202
+        width: 3299
+        height: 1588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d92f3c4f81c608e00800000000000000
+      internalID: 1044953967991452317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hilbram_5
+      rect:
+        serializedVersion: 2
+        x: 3395
+        y: 987
+        width: 53
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 552af5d50b4483100800000000000000
+      internalID: 87895717005206101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hilbram_6
+      rect:
+        serializedVersion: 2
+        x: 3295
+        y: 866
+        width: 165
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 748d75e3d19e6f770800000000000000
+      internalID: 8644352846593513543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hilbram_7
+      rect:
+        serializedVersion: 2
+        x: 3402
+        y: 936
+        width: 105
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ae8f4ba957ad4f60800000000000000
+      internalID: 8020250514984767143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hilbram_8
+      rect:
+        serializedVersion: 2
+        x: 3497
+        y: 900
+        width: 81
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eed62c441a605a9f0800000000000000
+      internalID: -457952497395143186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hilbram_9
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 901
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61cd4e1749377f0b0800000000000000
+      internalID: -5694956122383524842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hilbram_10
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 557
+        width: 239
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3782a7b3a25203660800000000000000
+      internalID: 7363426254067476595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hilbram_11
+      rect:
+        serializedVersion: 2
+        x: 3349
+        y: 827
+        width: 124
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3952c45a1f061520800000000000000
+      internalID: 2672340034656557370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hilbram_12
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 174
+        width: 78
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f0c827422db78460800000000000000
+      internalID: 7243966480569123060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hilbram_13
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 190
+        width: 34
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5791438c5b112fbc0800000000000000
+      internalID: -3750916067200591499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hilbram_14
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 198
+        width: 183
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ae1ab47f65e765f0800000000000000
+      internalID: -763389344953524567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hilbram_15
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 192
+        width: 185
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 574179e747bbd7d10800000000000000
+      internalID: 2125060708203172981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hilbram_16
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 115
+        width: 183
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b6000720d9764f30800000000000000
+      internalID: 4559465607673677497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      hilbram_0: -4370203901848887248
+      hilbram_1: -2856072712526529833
+      hilbram_10: 7363426254067476595
+      hilbram_11: 2672340034656557370
+      hilbram_12: 7243966480569123060
+      hilbram_13: -3750916067200591499
+      hilbram_14: -763389344953524567
+      hilbram_15: 2125060708203172981
+      hilbram_16: 4559465607673677497
+      hilbram_2: -4379236014436879682
+      hilbram_3: 1192185886568639886
+      hilbram_4: 1044953967991452317
+      hilbram_5: 87895717005206101
+      hilbram_6: 8644352846593513543
+      hilbram_7: 8020250514984767143
+      hilbram_8: -457952497395143186
+      hilbram_9: -5694956122383524842
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

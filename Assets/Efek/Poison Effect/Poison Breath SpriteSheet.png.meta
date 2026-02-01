@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: eff055279a2d0d74286082c2c099dda7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -683535194007476106
+    second: Poison Breath SpriteSheet_0
+  - first:
+      213: -3719155696856229499
+    second: Poison Breath SpriteSheet_1
+  - first:
+      213: 8060147979557402540
+    second: Poison Breath SpriteSheet_2
+  - first:
+      213: 2274718128796253907
+    second: Poison Breath SpriteSheet_3
+  - first:
+      213: 5327119311208897658
+    second: Poison Breath SpriteSheet_4
+  - first:
+      213: 992049036182949547
+    second: Poison Breath SpriteSheet_5
+  - first:
+      213: 4337673236388357806
+    second: Poison Breath SpriteSheet_6
+  - first:
+      213: -388745494817608507
+    second: Poison Breath SpriteSheet_7
+  - first:
+      213: -7898379534984880802
+    second: Poison Breath SpriteSheet_8
+  - first:
+      213: -1957086752978953345
+    second: Poison Breath SpriteSheet_9
+  - first:
+      213: -4953545791598615384
+    second: Poison Breath SpriteSheet_10
+  - first:
+      213: -186339872219358129
+    second: Poison Breath SpriteSheet_11
+  - first:
+      213: -232950177530704065
+    second: Poison Breath SpriteSheet_12
+  - first:
+      213: 8683297922618249407
+    second: Poison Breath SpriteSheet_13
+  - first:
+      213: -2337243236538883920
+    second: Poison Breath SpriteSheet_14
+  - first:
+      213: -1122672783050046631
+    second: Poison Breath SpriteSheet_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Poison Breath SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 106
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 678e4b1dc589386f0800000000000000
+      internalID: -683535194007476106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Breath SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 104
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58993804997e26cc0800000000000000
+      internalID: -3719155696856229499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Breath SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 100
+        width: 41
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca7f99602e56bdf60800000000000000
+      internalID: 8060147979557402540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Breath SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 52
+        width: 41
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3deba0f061c619f10800000000000000
+      internalID: 2274718128796253907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Breath SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 50
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7cdabc0acabde940800000000000000
+      internalID: 5327119311208897658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Breath SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 51
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bae0471a75774cd00800000000000000
+      internalID: 992049036182949547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Breath SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 53
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea6a5a693d2823c30800000000000000
+      internalID: 4337673236388357806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Breath SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 4
+        width: 38
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ccec593806ea9af0800000000000000
+      internalID: -388745494817608507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Breath SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 4
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5dd20c09a1536290800000000000000
+      internalID: -7898379534984880802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Breath SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 4
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7b111e97f707d4e0800000000000000
+      internalID: -1957086752978953345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Breath SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 21
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a42229f858714bb0800000000000000
+      internalID: -4953545791598615384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Breath SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 8
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4c9fdc9fdcf96df0800000000000000
+      internalID: -186339872219358129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Breath SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 5
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3f0be93c0564ccf0800000000000000
+      internalID: -232950177530704065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Breath SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 6
+        width: 118
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb05c8c5475418870800000000000000
+      internalID: 8683297922618249407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Breath SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 17
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b06a6cd8a1709fd0800000000000000
+      internalID: -2337243236538883920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poison Breath SpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 16
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9538d4f4d077b60f0800000000000000
+      internalID: -1122672783050046631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Poison Breath SpriteSheet_0: -683535194007476106
+      Poison Breath SpriteSheet_1: -3719155696856229499
+      Poison Breath SpriteSheet_10: -4953545791598615384
+      Poison Breath SpriteSheet_11: -186339872219358129
+      Poison Breath SpriteSheet_12: -232950177530704065
+      Poison Breath SpriteSheet_13: 8683297922618249407
+      Poison Breath SpriteSheet_14: -2337243236538883920
+      Poison Breath SpriteSheet_15: -1122672783050046631
+      Poison Breath SpriteSheet_2: 8060147979557402540
+      Poison Breath SpriteSheet_3: 2274718128796253907
+      Poison Breath SpriteSheet_4: 5327119311208897658
+      Poison Breath SpriteSheet_5: 992049036182949547
+      Poison Breath SpriteSheet_6: 4337673236388357806
+      Poison Breath SpriteSheet_7: -388745494817608507
+      Poison Breath SpriteSheet_8: -7898379534984880802
+      Poison Breath SpriteSheet_9: -1957086752978953345
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

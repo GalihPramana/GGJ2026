@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 57c9a693d63b9ec43a8bb3defc51da5f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5311296304100451691
+    second: kholil_0
+  - first:
+      213: -1076988384804151947
+    second: kholil_1
+  - first:
+      213: -7873439148965018908
+    second: kholil_2
+  - first:
+      213: -7268442163239299971
+    second: kholil_3
+  - first:
+      213: -9122202380006870603
+    second: kholil_4
+  - first:
+      213: 3008136620473852073
+    second: kholil_5
+  - first:
+      213: 431990084690599586
+    second: kholil_6
+  - first:
+      213: 4237789254756405916
+    second: kholil_7
+  - first:
+      213: 8951887007983863215
+    second: kholil_8
+  - first:
+      213: 6532875725864317148
+    second: kholil_9
+  - first:
+      213: 7051212552824898524
+    second: kholil_10
+  - first:
+      213: 1538396819563356505
+    second: kholil_11
+  - first:
+      213: 5203533702636194497
+    second: kholil_12
+  - first:
+      213: -7206575178420551559
+    second: kholil_13
+  - first:
+      213: -6238131607742487618
+    second: kholil_14
+  - first:
+      213: 8519331817581040984
+    second: kholil_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: kholil_0
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 202
+        width: 3296
+        height: 1588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b65a0ce19d385b940800000000000000
+      internalID: 5311296304100451691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kholil_1
+      rect:
+        serializedVersion: 2
+        x: 2773
+        y: 1732
+        width: 304
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57dd68825c4cd01f0800000000000000
+      internalID: -1076988384804151947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kholil_2
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 926
+        width: 52
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e2494d2fccebb290800000000000000
+      internalID: -7873439148965018908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kholil_3
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 960
+        width: 43
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7456a5cc5e412b90800000000000000
+      internalID: -7268442163239299971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kholil_4
+      rect:
+        serializedVersion: 2
+        x: 3394
+        y: 987
+        width: 53
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b1b772544d676180800000000000000
+      internalID: -9122202380006870603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kholil_5
+      rect:
+        serializedVersion: 2
+        x: 3294
+        y: 866
+        width: 165
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a0203b815c0fb920800000000000000
+      internalID: 3008136620473852073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kholil_6
+      rect:
+        serializedVersion: 2
+        x: 3401
+        y: 936
+        width: 106
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ae597871bcbef500800000000000000
+      internalID: 431990084690599586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kholil_7
+      rect:
+        serializedVersion: 2
+        x: 3496
+        y: 900
+        width: 82
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9219badfd6afca30800000000000000
+      internalID: 4237789254756405916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kholil_8
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 901
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa5005cfdcd7b3c70800000000000000
+      internalID: 8951887007983863215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kholil_9
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 557
+        width: 239
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd03ae92cdf69aa50800000000000000
+      internalID: 6532875725864317148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kholil_10
+      rect:
+        serializedVersion: 2
+        x: 3349
+        y: 827
+        width: 123
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd347e63570fad160800000000000000
+      internalID: 7051212552824898524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kholil_11
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 174
+        width: 78
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9512aa1b1cb795510800000000000000
+      internalID: 1538396819563356505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kholil_12
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 191
+        width: 35
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ca4762455aa63840800000000000000
+      internalID: 5203533702636194497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kholil_13
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 198
+        width: 185
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 970881bae0a1dfb90800000000000000
+      internalID: -7206575178420551559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kholil_14
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 193
+        width: 185
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb36f529a54bd69a0800000000000000
+      internalID: -6238131607742487618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kholil_15
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 115
+        width: 182
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 855d996962fba3670800000000000000
+      internalID: 8519331817581040984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      kholil_0: 5311296304100451691
+      kholil_1: -1076988384804151947
+      kholil_10: 7051212552824898524
+      kholil_11: 1538396819563356505
+      kholil_12: 5203533702636194497
+      kholil_13: -7206575178420551559
+      kholil_14: -6238131607742487618
+      kholil_15: 8519331817581040984
+      kholil_2: -7873439148965018908
+      kholil_3: -7268442163239299971
+      kholil_4: -9122202380006870603
+      kholil_5: 3008136620473852073
+      kholil_6: 431990084690599586
+      kholil_7: 4237789254756405916
+      kholil_8: 8951887007983863215
+      kholil_9: 6532875725864317148
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
